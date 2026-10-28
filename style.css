@@ -1,0 +1,42 @@
+h1 {
+    color: aqua;
+    font-size: 28px;
+}
+h2 {
+    color:blue;
+    font-size: 20px;
+}
+
+button {
+    background-color: aqua;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: hotpink;
+}
+
+.judul {
+    color: #2563eb;
+}
+
+#btn-simpan {
+    background-color: aqua ;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 16px;
+}
